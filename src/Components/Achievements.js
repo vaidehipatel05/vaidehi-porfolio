@@ -12,7 +12,7 @@ const Achievements = () => {
         },
         {
             img: leadershipIcon,
-            cardTitle: "Mentor",
+            cardTitle: "Onboarding Partner",
             cardSubtitle: "VMware Women Connecting Women, VMware Inc",
             cardText: "Bengaluru, India <br/> Jan 2021 – July 2023",
         },

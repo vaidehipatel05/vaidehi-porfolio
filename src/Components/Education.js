@@ -11,7 +11,7 @@ const Education = () => {
   const items = [
     {
       cardTitle: "San Jose State University, San Jose, CA",
-      cardSubtitle: "Master of Science in Data Aanlytics",
+      cardSubtitle: "Master of Science in Data Analytics",
       coursesHead: "Courses: ",
       cardDetailedText: [
         "Database Systems for Analytics",

@@ -24,7 +24,7 @@ export default function About() {
           </Col>
           <Col lg={8} pt={4} className="content">
             <br></br>
-            <h3>Data Aanlyst</h3>
+            <h3>Data Analyst</h3>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
               Greetings! I'm an aspiring Data Scientist with a robust background in developing technical solutions and managing international client relationships. With over three years of experience at VMware and a comprehensive education in Data Analytics and Computer Science Engineering, my expertise spans cutting-edge analytics, advanced visualization, and sophisticated ETL processes. Certified in Excel and Tableau, I am passionate about harnessing the power of data to drive decision-making and innovation.
@@ -52,7 +52,7 @@ export default function About() {
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Degree:</strong>{" "}
-                    <span>Master of Science in Data Aanlytics</span>
+                    <span>Master of Science in Data Analytics</span>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>Email:</strong>{" "}

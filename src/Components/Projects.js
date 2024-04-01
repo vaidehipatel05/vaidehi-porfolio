@@ -20,32 +20,35 @@ const Projects = () => {
     {
       cardTitle: "Study Bucks: Student Finance, Simplified",
       cardDetailedText: [
-        "Leveraged custom survey and SQL queries to analyze student spending patterns and identify financial trends.",
-        "Spearheaded the development of the Emergency Fund Builder, enabling students to save an average of $500 per semester.",
+        "Technology stack: Python, Pandas, Matplotlib, Postgres SQL, pgAdmin, Plotly, ETL.",
+        "Assessed student spending behaviors through advanced SQL queries, identifying 20% potential savings.",
+        "Spearheaded development of Emergency Fund Builder, enabling students to save an average of $500 per semester.",
       ],
       technologies: ["Python", "Pandas", "Matplotlib", "Postgres SQL", "pgAdmin", "Plotly", "ETL"],
       links: [],
-      date: "Sep 2023 - Dec 2023",
+      date: "Aug 2023",
     },
     {
       cardTitle: "Analysis of Sector-Wise Layoff Trends",
       cardDetailedText: [
-        "Analyzed layoff trends and fundraising data to offer insights into market dynamics and career trajectories.",
-        "Employed a multi-dimensional data visualization framework, including Matplotlib, Seaborn, and Plotly.",
+        "Technology stack: Python with Pandas, Matplotlib, and Tableau for in-depth analysis.",
+        "Researched layoff and fundraising trends in the technology sector to provide strategic insights; identified market opportunities and career pathways based on industry data and analysis.",
+        "Constructed visualization of diverse data sources, offering stakeholders a comprehensive view of layoff data; boosted stakeholder understanding by 50% and fostered collaborative decision-making processes.",
       ],
       technologies: ["Python", "Pandas", "Matplotlib", "Tableau"],
       links: [],
-      date: "Sep 2023 - Dec 2023",
+      date: "Aug 2023",
     },
     {
-      cardTitle: "Health Monitoring System Based on Diet Evaluation",
+      cardTitle: "Cloud-Based Data Pipeline for YouTube Video Analytics",
       cardDetailedText: [
-        "Developed an Android app for dietary tracking using voice commands and NLP, supported by a dataset of over 10,000 Indian food items.",
-        "Used a custom KNN algorithm for diet predictions with over 99% accuracy, validated against BMR.",
+        "Technology stack: AWS Glue, AWS Lambda, Amazon S3, AWS Athena, AWS IAM, Amazon QuickSight.",
+        "Engineered and implemented data pipeline, resulting in a 30% reduction in data processing time, by integrating AWS Glue and Lambda for scalable ETL processes, facilitating ingestion of unprocessed video data in S3.",
+        "Leveraged AWS Athena for interactive querying directly on data stored in S3, achieving a 50% improvement in analytics accessibility and security, evidenced by reduced data migration needs and enhanced access control.",
       ],
-      technologies: ["Python", "ML", "NLP", "Heroku Flask", "AWS", "PostgreSQL", "Speech Recognition", "KNN", "Mobile computing"],
+      technologies: ["AWS Glue", "AWS Lambda", "Amazon S3", "AWS Athena", "AWS IAM", "Amazon QuickSight"],
       links: [],
-      date: "Jul 2019 - Jun 2020",
+      date: "",
     },
   ];
 

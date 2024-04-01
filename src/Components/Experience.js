@@ -12,20 +12,23 @@ export default function Experience() {
       cardTitle: "Student Assistant",
       cardSubtitle: "eCampus at San Jose State University, CA",
       cardDetailedText: [
-        "Guided over 100 SJSU faculty members in online learning initiatives, contributing to eCampus website design and maintenance.",
-        "Automated student assignment mark extraction from CSV to Excel using Python, reducing manual effort by 80%.",
+        "Pioneered the development of ecampus database leveraging advanced SQL, reducing manual workload by 90%.",
+        "Orchestrated Tableau dashboard development, driving an 80% enhancement in workshop performance by providing stakeholders with data-driven insights for agile decision-making and strategic marketing initiatives.",
+        "Formulated and executed sophisticated statistical models to convert raw data into actionable insights, leading to a 50% increase in workshop success and a 15% uptick in faculty engagement",  
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
       date: "July 2020 - July 2023",
-      cardTitle: "VMware Engineer vSphere II",
+      cardTitle: "VMware Engineer",
       cardSubtitle: "VMware Inc., Bengaluru, India",
       cardDetailedText: [
-        "Served as a trusted technical advisor to 15 international clients, integrating advanced data analytics tools for targeted support strategies.",
-        "Collaborated with the software development team to improve user satisfaction by 23% through development and fixes.",
-        "Led the development of refined support documentation, saving $1M annually.",
+        "Analyzed system data for 15 international clients using Google Analytics, recommending tailored products and integration strategies, resulting in an 80% performance improvement.",
+        "Detected and resolved discrepancies across vSphere tools through root cause analyses, guaranteeing optimal system functionality and operational smoothness, which led to a 20% reduction in downtime.",
+        "Led cross-functional teams in defining key performance indicators (KPIs) and creating custom reports using Tableau, leading to a 30% reduction in escalation cases through monitoring and evaluation.",
+        "Configured and maintained virtualized clusters, ensuring high availability and performance of critical applications, achieving a 99.9% uptime.",
+        "Championed technical advisory role for international clients, delivering solutions to enhance system performance and mitigate vSphere tool inconsistencies, resulting in long-lasting client partnerships."
       ].map(function (text) {
         return <li>{text}</li>;
       }),
