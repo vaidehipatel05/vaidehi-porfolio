@@ -27,11 +27,55 @@ export default function About() {
             <h3>Data Analyst</h3>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
-              Greetings! I'm an aspiring Data Scientist with a robust background in developing technical solutions and managing international client relationships. With over three years of experience at VMware and a comprehensive education in Data Analytics and Computer Science Engineering, my expertise spans cutting-edge analytics, advanced visualization, and sophisticated ETL processes. Certified in Excel and Tableau, I am passionate about harnessing the power of data to drive decision-making and innovation.
+              Data Analytics graduate student at San Jose State University with expertise in Machine Learning, Data Engineering, and Software Development. Former VMware Engineer at VMware and Machine Learning Engineer Intern at Guidewire Software. 
             </p>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
-              My academic journey at San Jose State University and Savitribai Phule Pune University has equipped me with a deep understanding of data mining, machine learning, big data technologies, and more. Combining this knowledge with my hands-on experience in Python, SQL, and various data engineering and science tools, I am ready to tackle complex challenges and contribute to the success of dynamic organizations. I am driven by the quest for knowledge, the pursuit of excellence, and the opportunity to make impactful contributions through data science.
+            My expertise includes:
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>Machine Learning:</strong>{" "}
+              <span>CNNs, transfer learning, quantization for image classification and NLP.</span>
+              </li>
+            </ul>
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>LLMs and Generative AI:</strong>{" "}
+              <span>Experienced in leveraging state-of-the-art models like Llama and Claude for various applications, including deployment using Docker containers.</span>
+              </li>
+            </ul>
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>Cloud:</strong>{" "}
+              <span>Skilled in utilizing AWS services such as Glue ETL, SageMaker, ECR, Lambda, S3, and Athena for scalable data processing, model training, and deployment.</span>
+              </li>
+            </ul>
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>Big Data:</strong>{" "}
+              <span>Adept at working with Hadoop, PySpark, Kafka for handling large-scale datasets and implementing data pipelines.</span>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>Data Engineering:</strong>{" "}
+              <span>Proficient in using various databases and tools - MySQL, PostgreSQL, Snowflake, MongoDB, Neo4j, BigQuery, Redis, Cassandra, Apache Airflow, Google Analytics.</span>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+              <i class="bi bi-chevron-right"></i> <strong>Data Visualization:</strong>{" "}
+              <span>Experienced in creating impactful visualizations using PowerBI and Tableau to communicate complex insights effectively.</span>
+              </li>
+            </ul>
+            </p>
+            
+            <p>
+            At Guidewire, I developed web scraping scripts, implemented ETL jobs, and worked with LLMs, improving data collection efficiency by 40% and reducing third-party data costs by 60%[1].
+
+            Passionate about leveraging data to drive insights and innovation. Seeking opportunities to contribute my skills to innovative projects and teams.
             </p>
 
             <br></br>
