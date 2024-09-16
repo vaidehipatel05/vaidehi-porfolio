@@ -27,7 +27,7 @@ export default function About() {
             <h3>Data Analyst</h3>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
-              Data Analytics graduate student at San Jose State University with expertise in Machine Learning, Data Engineering, and Software Development. Former VMware Engineer at VMware and Machine Learning Engineer Intern at Guidewire Software. 
+              I am Data Analytics graduate student at San Jose State University with expertise in Machine Learning, Data Engineering, and Software Development. Former VMware Engineer at VMware and Machine Learning Engineer Intern at Guidewire Software. 
             </p>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
