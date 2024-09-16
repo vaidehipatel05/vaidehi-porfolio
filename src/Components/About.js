@@ -15,7 +15,7 @@ export default function About() {
         <Row>
           <Col lg={4} className="d-flex justify-content-center">
             <img
-              src={img}
+              src={src/Components/images/vp.jpg}
               height="100%"
               width="69%"
               style={{ borderRadius: "50%" }}
@@ -72,7 +72,7 @@ export default function About() {
             </ul>
             </p>
             
-            <p>
+            <p style={{ color: "whitesmoke" }}>
             At Guidewire, I developed web scraping scripts, implemented ETL jobs, and worked with LLMs, improving data collection efficiency by 40% and reducing third-party data costs by 60%[1].
 
             Passionate about leveraging data to drive insights and innovation. Seeking opportunities to contribute my skills to innovative projects and teams.
