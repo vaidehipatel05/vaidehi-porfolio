@@ -18,7 +18,8 @@ const Education = () => {
         "Data visualization",
         "Data Analytics",
         "Data Mining",
-        "ML",
+        "Deep Learning",
+        "Machine Learning",
         "Big Data Technologies",
       ].map(function (course) {
         return <li>{course}</li>;

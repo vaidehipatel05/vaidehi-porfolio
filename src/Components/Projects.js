@@ -10,12 +10,24 @@ const Projects = () => {
     {
       cardTitle: "Classification of Toxic plant species using CNN and Transfer Learning",
       cardDetailedText: [
-        "Developed a CNN-based classification system using transfer learning to distinguish between toxic and non-toxic plant species.",
-        "Utilized pre-trained models like MobileNet v1, MobileNet v2, and EfficientNet, trained on a dataset of 10 toxic plant species with 1000 images each.",
+        "Pre-trained models on a dataset of 10,000+ web scraped images stored in Amazon S3, securing a 95% accuracy rate in detecting accidental poisonings.",
+        "Performed a comparative assessment on pre-trained models such as MobileNetV1, MobileNetV2, EfficientNet Lite0 and Quantized CNN.",
+        "MobileNetV2 outperformed by succeeding a 30% reduction in computational complexity and optimized memory use with quantization.",
       ],
-      technologies: ["Transfer Learning", "MobileNet V1", "MobileNet V2", "CNN+Quantisation", "EfficientNet Lite0", "Tensorflow lite"],
+      technologies: ["Transfer Learning", "MobileNet V1", "MobileNet V2", "CNN+Quantisation", "EfficientNet Lite0", "Tensorflow", "AWS S3"],
       links: [],
-      date: "Feb 2024 - Present",
+      date: "Feb 2024 - May 2024",
+    },
+    {
+      cardTitle: "Predicting election outcome based on news articles",
+      cardDetailedText: [
+        "Accomplished 95% accurate real-time news analysis by developing a Kafka data pipeline for live predictive electoral outcomes with the News API, and implementing Local Sensitive Hashing to remove duplicate data.",
+        "Enhanced data quality by 90% with PySpark’s Bloom filter and stored preprocessed data in Amazon S3.",
+        "Architected Latent Dirichlet Allocation, achieving 85% accuracy in identifying underlying themes.",
+      ],
+      technologies: ["Kafka", "Amazon S3", "NLTK", "K-means clustering", "Bloom filter", "Local Sensitive Hashing"],
+      links: [],
+      date: "Feb 2024 - May 2024",
     },
     {
       cardTitle: "Study Bucks: Student Finance, Simplified",
@@ -48,7 +60,7 @@ const Projects = () => {
       ],
       technologies: ["AWS Glue", "AWS Lambda", "Amazon S3", "AWS Athena", "AWS IAM", "Amazon QuickSight"],
       links: [],
-      date: "",
+      date: "Feb 2024",
     },
   ];
 
