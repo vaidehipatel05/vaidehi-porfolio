@@ -8,6 +8,40 @@ import "react-vertical-timeline-component/style.min.css";
 const Projects = () => {
   const items = [
     {
+      cardTitle: "AI-Powered Mock Interview Platform",
+      cardDetailedText: [
+        "Developed an AI-driven mock interview platform with LLMs (Llama 3, GPT4o) for live interviews, TTS/STT integration, and actionable reports.",
+        "Built RAG pipelines, containerized applications with Docker on macOS, and deployed to AWS ECR, leveraging Git for collaboration and RLTF for LLM fine-tuning.",
+        //"MobileNetV2 outperformed by succeeding a 30% reduction in computational complexity and optimized memory use with quantization.",
+      ],
+      technologies: ["TensorFlow, Hugging Face, AWS, Docker, LangChain"],
+      links: [],
+      date: "Aug 2024 – present",
+    },
+    {
+      cardTitle: "AI-Driven Content Source Identification",
+      cardDetailedText: [
+        "DEMO: https://huggingface.co/spaces/vai0511/ai-content-classifier-app",
+        "Developed a plagiarism detection system using state-of-the-art transformer architectures (RoBERTa, GPT-Neo, Mistral), achieving a 96% accuracy improvement",
+        "Fine-tuned Mistral-7B using QLoRA, optimizing memory efficiency while maintaining high model performance.",
+        "Optimized training pipelines with PyTorch and advanced prompting (L2M, Few-Shot Learning), improving prediction accuracy by 15% and inference speed to 150 texts/sec.",
+      ],
+      technologies: ["Hugging Face, Scikit-Learn, PyTorch"],
+      links: [],
+      date: "Aug 2024 – Nov 2024",
+    },
+    {
+      cardTitle: "Predictive Analytics for Wildfire Risk",
+      cardDetailedText: [
+        "Built Gradient Boosting models with 96.19% R² to predict wildfire risks using 2.3M+ entries spatial-temporal datasets.",
+        "Applied PCA and hyperparameter tuning, improving model accuracy by 40% while reducing training time by 35%.",
+        "Designed geospatial risk maps and interactive Power BI dashboards, providing actionable insights for wildfire prevention and resource allocation.",
+      ],
+      technologies: ["NumPy, Scikit-learn, XGBoost, Power BI, PCA"],
+      links: [],
+      date: "Aug 2024 – Nov 2024",
+    },
+    {
       cardTitle: "Classification of Toxic plant species using CNN and Transfer Learning",
       cardDetailedText: [
         "Pre-trained models on a dataset of 10,000+ web scraped images stored in Amazon S3, securing a 95% accuracy rate in detecting accidental poisonings.",

@@ -3,10 +3,11 @@ const Skills = () => {
 
   const skills = [
     "Python", "Java", "SQL",
-    "PostgreSQL", "MySQL", "Neo4j", "NoSQL", "Snowflake", "MongoDB", "Cassandra",
-    "Big Data", "Hadoop", "AWS", "Apache Spark", "ETL", "Apache Airflow",
-    "Data Analysis", "Machine Learning", "Large Language Models", "Natural Language Processing", "Visualization and Modeling", "Transfer Learning", "Big Data Technologies",
-    "MS Excel", "Tableau", "Power BI", "Git", "Docker", "AWS Cloud (ECR, S3, Glue, Lambda, Athena, SageMaker)", "JIRA" ,"BitBucket", "Rancher Desktop",
+    "PostgreSQL", "MySQL", "Neo4j", "NoSQL",
+    "Hadoop", "Apache Spark", "ETL", "Apache Airflow", "TensorFlow", "PyTorch", "Sklearn", "Hugging Face Transformer", "Large Language Models", 
+    "NLP", "CNN", "Transfer Learning", "GANs", "Retrieval-Augmented Generation", "LangChain", "AutoEncoders", "CI/CD pipeline setup", "automated testing", "containerization with Docker", "Kubernetes",
+    "Data Analysis", "Machine Learning", "Large Language Models", "Natural Language Processing", "Visualization and Modeling", "Big Data Technologies",
+    "MS Excel", "Tableau", "Power BI", "Git", "Docker", "AWS (Glue ETL, SageMaker, ECR, Lambda, S3, RDS, Athena, CloudWatch, Amplify)", "JIRA" ,"BitBucket", "Rancher Desktop",
   ];
   return (
     <section id="skills" class="skills section-bg">

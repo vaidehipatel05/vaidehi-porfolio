@@ -1,4 +1,4 @@
-import img from "./images/leadership_icon.png";
+import img from "./images/vp.png";
 import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

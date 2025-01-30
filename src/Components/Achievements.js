@@ -16,6 +16,12 @@ const Achievements = () => {
             cardSubtitle: "VMware Women Connecting Women, VMware Inc",
             cardText: "Bengaluru, India <br/> Jan 2021 – July 2023",
         },
+        {
+            img: leadershipIcon,
+            cardTitle: "Achieve Our Best - FY22 Q2 RnR Winner",
+            cardSubtitle: "VMware Inc",
+            cardText: "Bengaluru, India <br/> Jun 2022",
+        },
     ];
     return (
         <section id="achievements" class="about background-alt">
