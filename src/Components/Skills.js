@@ -9,6 +9,8 @@ const Skills = () => {
     "Data Analysis", "Machine Learning", "Large Language Models", "Natural Language Processing", "Visualization and Modeling", "Big Data Technologies",
     "MS Excel", "Tableau", "Power BI", "Git", "Docker", "AWS (Glue ETL, SageMaker, ECR, Lambda, S3, RDS, Athena, CloudWatch, Amplify)", "JIRA" ,"BitBucket", "Rancher Desktop",
   ];
+
+  
   return (
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">

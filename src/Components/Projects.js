@@ -14,19 +14,22 @@ const Projects = () => {
         "Built RAG pipelines, containerized applications with Docker on macOS, and deployed to AWS ECR, leveraging Git for collaboration and RLTF for LLM fine-tuning.",
         //"MobileNetV2 outperformed by succeeding a 30% reduction in computational complexity and optimized memory use with quantization.",
       ],
-      technologies: ["TensorFlow, Hugging Face, AWS, Docker, LangChain"],
+      technologies: ["TensorFlow", "Hugging Face", "AWS", "Docker", "LangChain"],
       links: [],
       date: "Aug 2024 – present",
     },
     {
       cardTitle: "AI-Driven Content Source Identification",
       cardDetailedText: [
-        "DEMO: https://huggingface.co/spaces/vai0511/ai-content-classifier-app",
+        <a href="https://huggingface.co/spaces/vai0511/ai-content-classifier-app">
+                Demo
+              </a>,
+        
         "Developed a plagiarism detection system using state-of-the-art transformer architectures (RoBERTa, GPT-Neo, Mistral), achieving a 96% accuracy improvement",
         "Fine-tuned Mistral-7B using QLoRA, optimizing memory efficiency while maintaining high model performance.",
         "Optimized training pipelines with PyTorch and advanced prompting (L2M, Few-Shot Learning), improving prediction accuracy by 15% and inference speed to 150 texts/sec.",
       ],
-      technologies: ["Hugging Face, Scikit-Learn, PyTorch"],
+      technologies: ["Hugging Face", "Scikit-Learn", "PyTorch"],
       links: [],
       date: "Aug 2024 – Nov 2024",
     },
@@ -37,7 +40,7 @@ const Projects = () => {
         "Applied PCA and hyperparameter tuning, improving model accuracy by 40% while reducing training time by 35%.",
         "Designed geospatial risk maps and interactive Power BI dashboards, providing actionable insights for wildfire prevention and resource allocation.",
       ],
-      technologies: ["NumPy, Scikit-learn, XGBoost, Power BI, PCA"],
+      technologies: ["NumPy", "Scikit-learn", "XGBoost", "Power BI", "PCA"],
       links: [],
       date: "Aug 2024 – Nov 2024",
     },

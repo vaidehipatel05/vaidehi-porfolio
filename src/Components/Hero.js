@@ -47,19 +47,7 @@ export default function Hero() {
               </a>
             </div>
             <br />
-            <Button
-              variant="outlined"
-              target="_blank"
-              href=""
-              startIcon={<CloudDownloadIcon />}
-              style={{
-                color: "rgb(255, 255, 255)",
-                borderColor: "rgb(255, 255, 255)",
-                
-              }}
-            >
-              Download Resume
-            </Button>
+           
           </Col>
           <Col
             lg={6}

@@ -13,15 +13,15 @@ export default function About() {
         </div>
 
         <Row>
-          <Col lg={3} className="d-flex justify-content-center">
+          <Col lg={6} className="d-flex justify-content-center">
             
           </Col>
-          <Col lg={9} pt={4} className="content">
+          <Col lg={8} pt={4} className="content">
             <br></br>
-            <h3>Data Analyst</h3>
+            <h3>Data Analytics Graduate | SJSU</h3>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
-              I am Data Analytics graduate student at San Jose State University with expertise in Machine Learning, Data Engineering, and Software Development. Former VMware Engineer at VMware and Machine Learning Engineer Intern at Guidewire Software. 
+            Graduate student with expertise in Machine Learning, Data Engineering, LLMs, and Cloud Computing. Former VMware Engineer and Guidewire ML Intern. 
             </p>
             <br></br>
             <p style={{ color: "whitesmoke" }}>
@@ -67,19 +67,13 @@ export default function About() {
             </p>
             
             <p style={{ color: "whitesmoke" }}>
-            At Guidewire, I developed web scraping scripts, implemented ETL jobs, and worked with LLMs, improving data collection efficiency by 40% and reducing third-party data costs by 60%[1].
-
-            Passionate about leveraging data to drive insights and innovation. Seeking opportunities to contribute my skills to innovative projects and teams.
-            </p>
+            Passionate about driving innovation through data insights and cutting-edge AI technologies.</p>
 
             <br></br>
             <Row>
               <Col lg={4}>
                 <ul>
-                  <li>
-                    <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>{" "}
-                    <span>+1 408-207-8426</span>
-                  </li>
+                  
                   <li>
                     <i class="bi bi-chevron-right"></i> <strong>City:</strong>{" "}
                     <span>San Jose, CA</span>

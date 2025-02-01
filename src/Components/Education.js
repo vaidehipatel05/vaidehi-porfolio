@@ -17,6 +17,8 @@ const Education = () => {
         "Database Systems for Analytics",
         "Data visualization",
         "Data Analytics",
+        "Generative AI",
+        "NLP",
         "Data Mining",
         "Deep Learning",
         "Machine Learning",
@@ -110,13 +112,7 @@ const Education = () => {
                   </p>
                 </VerticalTimelineElement>
               ))}
-              <VerticalTimelineElement
-                iconStyle={{
-                  background: "#0563bb",
-                  color: "#fff",
-                }}
-                icon={<StarIcon />}
-              />
+              
             </VerticalTimeline>
           </div>
         </div>

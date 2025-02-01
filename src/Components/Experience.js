@@ -12,7 +12,7 @@ export default function Experience() {
       cardTitle: "Machine Learning Engineer Intern",
       cardSubtitle: "Guidewire Software, San Mateo, CA",
       cardDetailedText: [
-        "Developed Python scripts using Beautiful Soup to web scrape firmographic, technographic, and cybersecurity incident data, resulting in a 40% increase in data collection efficiency.",
+        "Developed Python web scraping scripts for firmographic, technographic, and cybersecurity data, increasing collection efficiency by 40%.",
         "Implemented AWS Glue ETL jobs and scheduled Airflow DAGs to automate weekly data collection, cutting manual effort by 75% and ensuring consistent, up-to-date data.",
         "Leveraged Amazon SageMaker to process and analyze scraped data, boosting data quality by 30%.",
         "Utilized Docker Dev containers to deploy Large Language Models (LLMs) Llama and Claude, enhancing model portability and reducing deployment time by 70%.",
@@ -36,13 +36,14 @@ export default function Experience() {
     },
     {
       date: "July 2020 - July 2023",
-      cardTitle: "VMware Engineer",
+      cardTitle: "Solutions Architect",
       cardSubtitle: "VMware Inc., Bengaluru, India",
       cardDetailedText: [
-        "Analyzed system data for 15 international clients using Google Analytics, recommending integration strategies, yielding in an 80% performance improvement.",
-        "Collaborated with clients and operated SQL to extract, transform, and oversee new product requirements in the VMware vSphere Solution culminating in 25% improved data precision.",
-        "Scrutinized trends and irregularities in SSL certificates, LDAP, and active directory setups on both SaaS and On-Premises, accomplishing a 30% reduction in VM downtime.",
-        "Spearheaded agile methodologies to orchestrate over 10 releases in a two-year period, ensuring adherence to project timelines and attaining 90% customer satisfaction rating."
+        "Served as a trusted technical advisor to 15+ international clients, leveraging domain expertise to enhance VMware vSphere solutions.",
+        "Improved data precision by 60% by extracting and transforming product requirements using SQL.",
+        "Reduced VM downtime by 80% by analyzing trends and irregularities in SSL certificates, LDAP, and Active Directory setups across SaaS and On-Premises.",
+        "Crafted interactive dashboards in Tableau showcasing KPIs & performance trends, contributing 98% reduction in product defects.",
+        "Led agile workflows to deliver 10+ releases in 2 years, achieving 95% customer satisfaction.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
