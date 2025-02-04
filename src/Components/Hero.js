@@ -19,11 +19,12 @@ export default function Hero() {
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Student,Data Scientist,Data Engineer,Technical Solutions Advisor">
+                data-typed-items="Student,Data Scientist,Machine Learning Engineer, VMware vSphere Engineer, Data Engineer">
                 <Typed
                   strings={["Student","Data Scientist",
-                  "Data Engineer",
-                  "Technical Solutions Advisor"]}
+                  "Machine Learning Engineer",
+                "VMware vSphere Engineer",
+              "Data Engineer"]}
                   loop
                   typeSpeed={90}
                   backSpeed={60}

@@ -10,9 +10,9 @@ const Projects = () => {
     {
       cardTitle: "AI-Powered Mock Interview Platform",
       cardDetailedText: [
-        "Developed an AI-driven mock interview platform with LLMs (Llama 3, GPT4o) for live interviews, TTS/STT integration, and actionable reports.",
+        "Developed an AI-driven mock interview platform with LLMs (Llama 3, GPT4o) for real-time interviews with advanced TTS/STT integrations., and actionable reports.",
         "Built RAG pipelines, containerized applications with Docker on macOS, and deployed to AWS ECR, leveraging Git for collaboration and RLTF for LLM fine-tuning.",
-        //"MobileNetV2 outperformed by succeeding a 30% reduction in computational complexity and optimized memory use with quantization.",
+        "Deployed microservices architecture on AWS with containerization and CI/CD pipelines for automated model updates.",
       ],
       technologies: ["TensorFlow", "Hugging Face", "AWS", "Docker", "LangChain"],
       links: [],
@@ -25,9 +25,10 @@ const Projects = () => {
                 Demo
               </a>,
         
-        "Developed a plagiarism detection system using state-of-the-art transformer architectures (RoBERTa, GPT-Neo, Mistral), achieving a 96% accuracy improvement",
+        "Engineered plagiarism detection models usingstate-of-the-art transformers (RoBERTa, ELECTRA, GPT-Neo, Mistral), achieving a 96% accuracy improvement.",
         "Fine-tuned Mistral-7B using QLoRA, optimizing memory efficiency while maintaining high model performance.",
         "Optimized training pipelines with PyTorch and advanced prompting (L2M, Few-Shot Learning), improving prediction accuracy by 15% and inference speed to 150 texts/sec.",
+        "Applied vector database indexing for efficient content similarity searches."
       ],
       technologies: ["Hugging Face", "Scikit-Learn", "PyTorch"],
       links: [],
