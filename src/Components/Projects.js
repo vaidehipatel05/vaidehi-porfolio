@@ -10,9 +10,10 @@ const Projects = () => {
     {
       cardTitle: "AI-Powered Mock Interview Platform",
       cardDetailedText: [
-        "Developed an AI-driven mock interview platform with LLMs (Llama 3, GPT4o) for real-time interviews with advanced TTS/STT integrations., and actionable reports.",
-        "Built RAG pipelines, containerized applications with Docker on macOS, and deployed to AWS ECR, leveraging Git for collaboration and RLTF for LLM fine-tuning.",
-        "Deployed microservices architecture on AWS with containerization and CI/CD pipelines for automated model updates.",
+        "Curated 30,000+ data points via AWS-powered pipelines with Groq, Docker, and AWS for robust preprocessing.",
+        "Fine tuned LLMs (Llama 3, GPT-4) using PyTorch and LangChain implementing dynamic conversational history retention.",
+        "Formulated a scalable microservices architecture leveraging Kubernetes and AWS ECS, diminishing API latency by 40%.",
+        "Embedded reinforcement learning with TTS/STT integrations improving skill gap closure by 35%.",
       ],
       technologies: ["TensorFlow", "Hugging Face", "AWS", "Docker", "LangChain"],
       links: [],
@@ -25,10 +26,9 @@ const Projects = () => {
                 Demo
               </a>,
         
-        "Engineered plagiarism detection models usingstate-of-the-art transformers (RoBERTa, ELECTRA, GPT-Neo, Mistral), achieving a 96% accuracy improvement.",
-        "Fine-tuned Mistral-7B using QLoRA, optimizing memory efficiency while maintaining high model performance.",
-        "Optimized training pipelines with PyTorch and advanced prompting (L2M, Few-Shot Learning), improving prediction accuracy by 15% and inference speed to 150 texts/sec.",
-        "Applied vector database indexing for efficient content similarity searches."
+        "Spearheaded AI-powered plagiarism detection models (RoBERTa, ELECTRA, GPT-Neo, Mistral-7B leveraging QLoRA) on 46,180 texts, achieving 95.73% accuracy—outperforming traditional methods.",
+        "Enhanced PyTorch pipelines with advanced prompting, elevating accuracy by 15% and processing time to 3.8 seconds.",
+        "Pioneered unrestricted plagiarism detection across variable text lengths, eliminating traditional 250-character constraints,",
       ],
       technologies: ["Hugging Face", "Scikit-Learn", "PyTorch"],
       links: [],
@@ -48,9 +48,8 @@ const Projects = () => {
     {
       cardTitle: "Classification of Toxic plant species using CNN and Transfer Learning",
       cardDetailedText: [
-        "Pre-trained models on a dataset of 10,000+ web scraped images stored in Amazon S3, securing a 95% accuracy rate in detecting accidental poisonings.",
-        "Performed a comparative assessment on pre-trained models such as MobileNetV1, MobileNetV2, EfficientNet Lite0 and Quantized CNN.",
-        "MobileNetV2 outperformed by succeeding a 30% reduction in computational complexity and optimized memory use with quantization.",
+        "Processed 7,475+ toxic plant images via web scraping, augmentation, and histogram equalization for real-time detection.",
+        "Achieved 95% accuracy in toxic plant classification via CNNs & transfer learning, addressing 68,000+ poisoning cases.",
       ],
       technologies: ["Transfer Learning", "MobileNet V1", "MobileNet V2", "CNN+Quantisation", "EfficientNet Lite0", "Tensorflow", "AWS S3"],
       links: [],

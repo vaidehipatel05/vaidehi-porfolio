@@ -24,6 +24,7 @@ export default function Hero() {
                   strings={["Student","Data Scientist",
                   "Machine Learning Engineer",
                 "VMware vSphere Engineer",
+                "Gen AI Engineer",
               "Data Engineer"]}
                   loop
                   typeSpeed={90}
@@ -38,6 +39,15 @@ export default function Hero() {
                   cursorChar="|"
                 />
               </span>
+            </p>
+            <p className="mt-3 fst-italic text-secondary">
+              "Passionate about driving innovation through data insights and cutting-edge AI technologies."
+            </p>
+
+            <p>Try my AI-Driven Content Source Identification -
+            <a href="https://huggingface.co/spaces/vai0511/ai-content-classifier-app">
+             Demo
+              </a>
             </p>
             <div class="social-links">
               <a href="http://linkedin.com/in/patel-vaidehi">

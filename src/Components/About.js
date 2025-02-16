@@ -43,9 +43,7 @@ export default function About() {
               ))}
             </ul>
 
-            <p className="mt-3 fst-italic text-secondary">
-              "Passionate about driving innovation through data insights and cutting-edge AI technologies."
-            </p>
+            
 
             <Row className="mt-4">
               <Col lg={6}>

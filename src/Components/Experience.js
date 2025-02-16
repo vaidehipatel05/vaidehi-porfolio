@@ -12,10 +12,11 @@ export default function Experience() {
       cardTitle: "Machine Learning Engineer Intern",
       cardSubtitle: "Guidewire Software, San Mateo, CA",
       cardDetailedText: [
-        "Developed Python scripts for data acquisition (firmographic, technographic, cybersecurity), and designed cloud-native applications using AWS Lambda and Docker within microservice architectures, boosting data efficiency by 40%.",
-        "Automated data pipelines using AWS Glue and Airflow, reducing manual effort by 75%.",
-        "Integrated LLMs (Llama, Claude) with Docker and AWS Lambda, cutting deployment time by 70% and improving scalability.",
-        "Set up CI/CD pipelines for automated model deployment and retraining.",
+        "Engineered cyber risk assessment pipeline using LLaMA & Claude to analyze fraudulent activities in SEC filings, cutting false positives by 35%.",
+        "Automated 9,000+ financial risk indicators by deploying containerized Python code, reducing manual effort by 60%.",
+        "Integrated prompt engineering for extracting cyber incident disclosures from 10,000+ complex regulatory documents.",
+        "Architected a scalable data pipeline with AWS Glue, Airflow, and Lambda, enabling dynamic web scraping and structured storage in S3 & Athena.",
+
       ].map(function (text) {
         return <li>{text}</li>;
       }),
@@ -37,11 +38,12 @@ export default function Experience() {
       cardTitle: "VMware vSphere Engineer",
       cardSubtitle: "VMware Inc., Bengaluru, India",
       cardDetailedText: [
-        "Served as a trusted technical advisor to 15+ international clients, leveraging domain expertise to enhance VMware vSphere solutions.",
-        "Improved data precision by 60% by extracting and transforming product requirements using SQL.",
-        "Reduced VM downtime by 80% by analyzing trends and irregularities in SSL certificates, LDAP, and Active Directory setups across SaaS and On-Premises.",
-        "Crafted interactive dashboards in Tableau showcasing KPIs & performance trends, contributing 98% reduction in product defects.",
-        "Led agile workflows to deliver 10+ software releases in 2 years, achieving 95% customer satisfaction.",
+        "Slashed VM downtime by 65% by architecting predictive analytics models (Python/time-series algorithms) to forecast hardware failures in SaaS/on-premise VMware vSphere clusters.",
+        "Devised SQL/Google Analytics ETL pipelines for hybrid infrastructures, empowering data-driven decisions across 15+ global client environments.",
+        "Revitalized vCenter PostgreSQL performance by 40% via deadlock resolution & query optimization for critical workloads.",
+        "Mitigated system risks by 25% by pioneering Tableau dashboards to monitor VM KPIs across SaaS/on-premise deployments, aligning cross-functional teams.",
+        "Spearheaded training initiatives for 50 engineers on VMware solutions, accelerating adoption with 30% productivity gain.",
+        "Orchestrated Agile delivery of 10+ software releases, achieving 90% customer satisfaction through on-time deployment",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
