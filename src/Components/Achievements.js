@@ -3,7 +3,7 @@ import React from 'react';
 
 // Import your custom images (update paths accordingly)
 import marketingIcon from "./images/iso.jpg";
-import onboardingIcon from "./images/vp_mic.JPG";
+import onboardingIcon from "./images/vp_mic.png";
 import achievementIcon from "./images/RnRwinners.png";
 import volunteerIcon from "./images/goodera.png";
 import volunteerIcon1 from "./images/samhouse.png";
