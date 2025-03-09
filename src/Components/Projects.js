@@ -10,10 +10,11 @@ const Projects = () => {
     {
       cardTitle: "AI-Powered Mock Interview Platform",
       cardDetailedText: [
-        "Curated 30,000+ data points via AWS-powered pipelines with Groq, Docker, and AWS for robust preprocessing.",
-        "Fine tuned LLMs (Llama 3, GPT-4) using PyTorch and LangChain implementing dynamic conversational history retention.",
-        "Formulated a scalable microservices architecture leveraging Kubernetes and AWS ECS, diminishing API latency by 40%.",
-        "Embedded reinforcement learning with TTS/STT integrations improving skill gap closure by 35%.",
+        "• Addressed the manual process of collecting interview questions by automating web scraping for 87+ companies across six domains using an AWS ETL pipeline (Groq API, Docker, ECR, Lambda, S3).",
+        "Fine-tuned DeepSeek, Llama3, Mistral, T5 integrating SST Assembly AI & Google Cloud TTS, with Unsloth for optimization.",
+        "Implemented Reinforcement Learning Through Human Feedback with reward modeling using PPO to enhance response evaluation.",
+        "Ensured scalable deployment by hosting fine-tuned models on Hugging Face Spaces and integrating API endpoints into a Flask app.",
+        "Validated 1600+ domain-specific questions for accuracy, optimizing prompt engineering with Self-BLEU-4 (0.562) for originality.",
       ],
       technologies: ["TensorFlow", "Hugging Face", "AWS", "Docker", "LangChain"],
       links: [],

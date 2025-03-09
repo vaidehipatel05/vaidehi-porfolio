@@ -29,7 +29,7 @@ export default function About() {
             <ul className="list-unstyled ms-0">
               {[
                 { icon: "bi-chevron-right", color: "primary", title: "Machine Learning", desc: "Specialized in CNNs, transfer learning, and model quantization for image classification and NLP tasks." },
-                { icon: "bi-chevron-right", color: "success", title: "LLMs & Generative AI", desc: "Skilled in deploying models like Llama and Claude using Docker, with expertise in fine-tuning and optimizing performance." },
+                { icon: "bi-chevron-right", color: "success", title: "LLMs & Generative AI", desc: "Skilled in deploying models like Llama, DeepSeek, Mistral, Claude, with expertise in fine-tuning and optimizing performance." },
                 { icon: "bi-chevron-right", color: "info", title: "Cloud Computing", desc: "Proficient with AWS services: Glue ETL, SageMaker, ECR, Lambda, S3, Athena for scalable deployments." },
                 { icon: "bi-chevron-right", color: "danger", title: "Big Data & Data Engineering", desc: "Adept at handling large datasets with Hadoop, PySpark, Kafka and building robust data pipelines with Airflow, Snowflake, BigQuery." },
                 { icon: "bi-chevron-right", color: "warning", title: "Data Visualization", desc: "Crafting impactful dashboards using Power BI and Tableau to communicate complex insights effectively." }
